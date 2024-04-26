@@ -2,6 +2,7 @@
   "expo": {
     "name": "FoodApp",
     "slug": "FoodApp",
+    "scheme": "food-app", //changes the base url of the app: i.g. [schema_name]://index/
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
